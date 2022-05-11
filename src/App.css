@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header */
+header {
+  background-color: #455957;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-header {
+  margin-top: 2%;
+  margin-left: 120px;
+  font-family: "Gill Sans",
+    sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.navigation {
+  margin-top: 4%;
+  margin-right: 2px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #93bdb4;
+  display: flex;
+  justify-content: space-between;
+}
+
+.crypto-logo {
+  width: 150px;
+}
+
+.footer-logo {
+  width: 15px;
+  margin-right: 15px;
+}
+
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  margin-left: 16%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-style {
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Home */
+.back-image {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../src/assets/dark.jpeg);
+  opacity: .9;
+  width: 100%;
+  height: 100%;
+}
+
+.home {
+  font-size: 100px;
+  color:floralwhite;
+  margin-left: 10%;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.p {
+  font-size: 40px;
+  margin-top: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Index */
+.crypto-list {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.index-body {
+  margin: auto;
+  padding-bottom: 10%;
+  width: 20%;
+}
+
+.index-padding {
+  padding: 5px;
+}
+
+/* Show */
+.show-body {
+  margin: auto;
+  padding-bottom: 10%;
+  width: 40%;
+  font-style: italic;
+}
+
+.show-title {
+  font-style: normal;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.edit-show {
+  width: 47.5%;
+  margin-right: 10px;
+  display: inline;
+}
+
+.delete-show {
+  width: 47.5%;
+  margin-left: 10px;
+  display: inline;
+}
+
+/* new */
+.new-format {
+  margin-left: 30%;
+  margin-right: 30%;
+}
